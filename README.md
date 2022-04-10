@@ -10,7 +10,7 @@ python -m spacy download en_core_web_trf
 ```
 
 ## Files
-Codes for SST and QQP domains closely mirror each other. 
+Files for SST and QQP domains closely mirror each other. 
 
 * `*_rule_union.py` contain the `exsum.Model` object named `model`, and can be passed as the argument into `exsum` for visualization. 
 * `*_rule_list.py` define all the rules in the rule unions. 
