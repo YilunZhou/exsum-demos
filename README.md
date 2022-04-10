@@ -20,6 +20,8 @@ Files for SST and QQP domains closely mirror each other.
 * `*_generate_feu.py` demonstrate how to construct `*_explanation.pkl` from the respective `*_explanation_raw.pkl` source. 
 * `*_features.py` implement feature computation used during FEU generation. 
 
+`qqp_generate_feu.py` takes a relatively long time to finish, since it needs there are over 40,000 instances in the QQP test set.
+
 ## New Models and Datasets
 
 At a bare minimum, a new file (e.g. `rule_union.py`) containing the `exsum.Model` object is needed. However, its construction requires multiple steps. We recommend follow a similar process as used by the demos, of first calculating the raw explanation data, then converting them to the `exsum`-format along with feature computation, and finally loading them to the `exsum.Model`. 
