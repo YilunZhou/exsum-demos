@@ -1,7 +1,6 @@
 
-from exsum import Parameter, ParameterRange, BehaviorRange, Rule
+from exsum import Parameter, ParameterRange, Rule
 
-import os, sys
 from sst_utils import parametrized_b_func_range
 
 def rule_negation(idx):

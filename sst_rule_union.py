@@ -33,4 +33,4 @@ rules = [rule_negation(1),
 stop_words = precedence_seq([8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18])
 composition_structure = precedence_seq([1, 4, 3, 5, 6, stop_words, 19, 20, 21])
 rule_union = RuleUnion(rules, composition_structure)
-model = load_model(rule_union, split_idx=300)
+model = load_model(rule_union, split_idx=300, split='first')
