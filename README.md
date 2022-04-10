@@ -20,7 +20,7 @@ Files for SST and QQP domains closely mirror each other.
 * `*_generate_feu.py` demonstrate how to construct `*_explanation.pkl` from the respective `*_explanation_raw.pkl` source. 
 * `*_features.py` implement feature computation used during FEU generation. 
 
-`qqp_generate_feu.py` takes a relatively long time to finish, since it needs there are over 40,000 instances in the QQP test set.
+`qqp_generate_feu.py` takes a relatively long time to finish, since there are over 40,000 instances in the QQP test set.
 
 ## New Models and Datasets
 
