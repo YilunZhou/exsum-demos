@@ -1,7 +1,7 @@
 
 # ExSum Demos
 
-This repository contains the two rule unions that are used as examples in the [ExSum paper](https://arxiv.org/pdf/2205.00130.pdf). For more details, please consult the [documentation](https://yilunzhou.github.io/exsum/documentation.html) for the [`exsum`](https://yilunzhou.github.io/exsum/) package. 
+This repository contains the two rule unions that are used as examples in the [ExSum paper](https://arxiv.org/pdf/2205.00130.pdf). For more details, please consult the [documentation](https://yilunzhou.github.io/exsum/documentation.html) for the [`exsum`](https://github.com/YilunZhou/ExSum) package. 
 
 To use all functionalities of this package, first install the required dependencies and download the `spacy` pre-trained model, via
 ```
